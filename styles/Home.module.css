@@ -12,6 +12,18 @@
   align-items: center;
 }
 
+.thingiuselink{
+  font-weight: bold;
+  font-style: normal;
+  color: blue;
+}
+.thingiuselink:hover{
+  text-underline-offset: 2px;
+  /* display: inline-block; */
+  border-bottom: 2px solid blue;
+  padding-bottom: 1px;
+  transition: box-shadow 200ms ease 0s;
+}
 .footer {
   display: flex;
   flex: 1;

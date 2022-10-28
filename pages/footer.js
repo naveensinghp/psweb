@@ -4,6 +4,7 @@ import Icon from 'react-icons-kit';
 import {twitter} from 'react-icons-kit/icomoon/twitter'
 import {github} from 'react-icons-kit/icomoon/github'
 import {linkedin} from 'react-icons-kit/icomoon/linkedin'
+import Link from 'next/link';
 
 export default function Footer() {
     return(
@@ -13,8 +14,12 @@ export default function Footer() {
                 All that stuff up there was written by me, <Name>NaveenSingh</Name>. All rights reserved.
                 </Copyright>
                 <IconsWrapper>
-                    <Icon icon={twitter} size={22}/>
-                    <Icon icon={github} size={22}/>
+                    <Link href="https://twitter.com/NaveensinghMtp" target="_blank"  rel="noopener noreferrer">
+                        <Icon icon={twitter} size={22}/> 
+                    </Link>
+                    <Link href="https://github.com/naveensinghp" target="_blank"  rel="noopener noreferrer">
+                        <Icon icon={github} size={22}/>
+                    </Link>
                     <Icon icon={linkedin} size={22}/>
                 </IconsWrapper>
             </Wrapper>

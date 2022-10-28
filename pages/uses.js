@@ -1,20 +1,17 @@
 
 import styled from 'styled-components';
 import { BREAKPOINTS } from '../constant';
-import Icon from 'react-icons-kit';
-import {twitter} from 'react-icons-kit/icomoon/twitter'
-import {github} from 'react-icons-kit/icomoon/github'
-import {linkedin} from 'react-icons-kit/icomoon/linkedin'
 import Header from './header';
 import Footer from './footer'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {ic_arrow_right_alt_outline} from 'react-icons-kit/md/ic_arrow_right_alt_outline'
+import ThingsIUse from '../components/thingsuse';
+
+
 
 export default function Uses() {
     return(
         <>
-            
             <div className={styles.container}>
                 <Head>
                     <title>Uses</title>
@@ -23,25 +20,33 @@ export default function Uses() {
                 </Head>
                 <main>
                     <Header/>
+                    <OuterWrapper>
+                    <h1>Things I Use</h1>
+                    </OuterWrapper>
                     <Wrapper>
-                        <OuterWrapper>
-                            <h2>Things I use</h2>
-                            <div style={{ color: '#F4A261' }}>
-                                <Icon size={64} icon={ic_arrow_right_alt_outline} />
-                            </div>
-                        </OuterWrapper>
+                        <ThingsIUse
+                            title="Editor "
+                            titlevalue="VS Code"
+                            links="https://code.visualstudio.com/">
+                        </ThingsIUse>
+                        <ThingsIUse
+                            title="Color Theme (personal) "
+                            titlevalue="Palenight (Mild Contrast)"
+                            links="https://code.visualstudio.com/">
+                        </ThingsIUse>
+                        <ThingsIUse
+                            title="Coding Font (on this website) "
+                            titlevalue="MonoLisa"
+                            links="https://code.visualstudio.com/">
+                        </ThingsIUse>
+                        <ThingsIUse
+                            title="Coding Font (personal) "
+                            titlevalue="Operator Mono"
+                            links="https://code.visualstudio.com/">
+                        </ThingsIUse>
                     </Wrapper>
                 </main>
                 <Footer/>
-                {/* <footer className={styles.footer}>
-                    <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    NaveenSingh
-                    </a>
-                </footer> */}
             </div>
         </>
     );
@@ -50,6 +55,7 @@ export default function Uses() {
 
 const OuterWrapper = styled.div`
 width: 100%;
+margin-top: 2rem;
 //min-height: 100vh;
 padding-left: 25%;
 padding-right: 20%;
@@ -59,6 +65,9 @@ overflow: hidden;
 
 const Wrapper = styled.div`
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
   @media ${BREAKPOINTS.sm} {
     font-size: 0.7rem;
     margin-bottom: 1.5rem;

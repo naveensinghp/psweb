@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { BREAKPOINTS } from '../constant';
-
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 export default function Header() {
     return (
@@ -13,10 +14,10 @@ export default function Header() {
                         </Name>
                         <Nav>
                             <ul className="nav">
-                                <li className="nav_li"><a href="#"> Home</a></li>
+                                <li className="nav_li"><Link href="/" rel="noopener noreferrer">Home</Link></li>
                                 <li className="nav_li"><a href="#"> Projects</a></li>
                                 <li className="nav_li"><a href="#"> Blogs</a></li>
-                                <li className="nav_li"><a href="#"> Now</a></li>
+                                <li className="nav_li"><Link href="/now" rel="noopener noreferrer">Now</Link></li>
                             </ul>
                         </Nav>
                     </Navbars>
@@ -25,6 +26,7 @@ export default function Header() {
         </>
     );
 }
+
 
 
 
