@@ -2,6 +2,57 @@
   --ff-fontfamily: 'gilroy' ;
 }
 
+card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 16px;
+}
+.card {
+  all: unset;
+  border-radius: 14px;
+  /* border: 1px solid #eee;*/
+  /* background-color: aquamarine;  */
+  height: 111px;
+  width: 100%;
+  margin: 0 8px 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+}
+.card svg.material-icons path {
+  fill: #888;
+}
+svg.material-icons {
+  height: 24px;
+  width: auto;
+}
+
+svg.material-icons:not(:last-child) {
+  margin-right: 8px;
+}
+
+.card svg.material-icons path {
+  fill: #888;
+}
+.card-container .card:not(.highlight-card):hover {
+  /* transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35); */
+  transform: translateY(-10px);
+  background-color: #edf2f7;
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
