@@ -2,10 +2,10 @@
   --ff-fontfamily: 'gilroy' ;
 }
 
-card-container{
+.card-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   margin-top: 16px;
 }
 .card {
@@ -19,7 +19,7 @@ card-container{
   padding: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   transition: all 0.2s ease-in-out;
   line-height: 24px;
