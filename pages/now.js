@@ -60,17 +60,17 @@ export default function Now() {
                             <br/><br/>
                             
 
-                            {/* <h2>Right Now</h2> <br/>
+                            <h2>Right Now</h2> <br/>
                            
-                           <div style={{ display: 'flex', flexDirection: 'column',gap: '10px' }}>
+                           <div style={{ display: 'flex', flexDirection: 'column',gap: '13px' }}>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f947" size="25" />  Building Habit and System
+                                    <Emoji unified="1f680" size="25" />  Building Habit and System
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f4bb" size="25" />  Learning Flutter & CSS
+                                    <Emoji unified="1f3c4" size="25" />  Learning Flutter & CSS
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f6a7" size="24" />  Building this Website (Nextjs)
+                                    <Emoji unified="1f6a7" size="24" />  Building this blog website(Nextjs)
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
                                     <Emoji unified="1f4da" size="25" />  
@@ -81,12 +81,12 @@ export default function Now() {
                                 </Link>
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f91d" size="25" />  Let&apos;s get&apos;s Connected
+                                    <Emoji unified="1f91d" size="25" />  Let&apos;s get&apos;s connected
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
                                     <Emoji unified="1f4cd" size="25" />  Living in Mettupalayam, India
                                 </div>
-                           </div> */}
+                           </div>
                             {/* <ul style={{letterSpacing: '0.7px'}}>
                                 <li> <Emoji unified="1f423" size="25" /> Building Habit and System</li>
                                 <li>Learning Flutter & CSS </li>
