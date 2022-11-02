@@ -11,7 +11,11 @@ export default function Header() {
                 <OuterWrapper>
                     <Navbars>
                         <Name>
-                            <h3>naveensingh.dev</h3>
+                            {/* <h3>naveensingh.dev</h3> */}
+                            <h3>
+                            <Link href="/">naveensingh.dev</Link>
+                            </h3>
+                            
                         </Name>
                         <Nav>
                             <ul className="nav">
