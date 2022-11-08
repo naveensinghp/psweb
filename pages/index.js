@@ -19,8 +19,9 @@ export default function Home() {
       <main>
         <Header/>
         <MainContent/>
+        <Footer/>
       </main>
-      <Footer/>
+     
       {/* <footer className={styles.footer}>
         <a
           href="#"
