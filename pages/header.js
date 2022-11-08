@@ -13,7 +13,7 @@ export default function Header() {
                         <Name>
                             {/* <h3>naveensingh.dev</h3> */}
                             <h3>
-                            <Link href="/">naveensingh.dev</Link>
+                              <Link href="/">naveensingh.dev</Link>
                             </h3>
                             
                         </Name>
