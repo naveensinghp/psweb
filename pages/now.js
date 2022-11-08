@@ -13,6 +13,7 @@ import {androidArrowForward} from 'react-icons-kit/ionicons/androidArrowForward'
 import Link from 'next/link';
 
 import { Emoji, EmojiStyle } from 'emoji-picker-react';
+import { Heading } from '../components/Heading/Heading';
 
 
 export default function Now() {
@@ -28,7 +29,7 @@ export default function Now() {
                     <Header/>
                     <Wrapper>
                         <OuterWrapper>
-                            <h2>What I&apos;m doing now</h2> 
+                            <Heading>What I&apos;m doing now</Heading>
                             <hr/> 
                             <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Updated : 26 October, 2022</span>
                             <br/><br/>
@@ -64,27 +65,32 @@ export default function Now() {
                            
                            <div style={{ display: 'flex', flexDirection: 'column',gap: '13px' }}>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f680" size="25" />  Building Habit and System
+                                {/* <Icon style={{color: '#3121ed'}} size={22} icon={androidArrowForward} />    */}
+                                🚀 &nbsp; Building Habit and System
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f3c4" size="25" />  Learning Flutter & CSS
+                                    {/* <Emoji unified="1f3c4" size="25" />   */}
+                                    🧑🏻‍💻 &nbsp; Learning Flutter & CSS
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f6a7" size="24" />  Building this blog website(Nextjs)
+                                    {/* <Emoji unified="1f6a7" size="24" />   */}
+                                    🚧 &nbsp; Building this blog website (Nextjs)
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f4da" size="25" />  
-                                    Current Reading -
+                                    {/* <Emoji unified="1f4da" size="25" />   */}
+                                    📖 &nbsp; Current Reading -
                                     <Link href='https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X' style={{ fontStyle: 'normal',color: '#3121ed'}} rel="noopener noreferrer">
                                         <span className={styles.thingiuselink}> < a href='https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X'> Ikigai: The Japanese Secret to a Long and Happy Life </a>
                                     </span> 
                                 </Link>
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f91d" size="25" />  Let&apos;s get&apos;s connected
+                                    {/* <Emoji unified="1f91d" size="25" />   */}
+                                    🤝 &nbsp; Let&apos;s get&apos;s connected
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
-                                    <Emoji unified="1f4cd" size="25" />  Living in Mettupalayam, India
+                                    {/* <Emoji unified="1f4cd" size="25" />   */}
+                                    📍&nbsp; Living in Mettupalayam, India
                                 </div>
                            </div>
                             {/* <ul style={{letterSpacing: '0.7px'}}>
