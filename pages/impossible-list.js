@@ -11,6 +11,7 @@ import { Paragraph } from '../components/Paragraph/Paragraph';
 import Icon from 'react-icons-kit';
 import {androidArrowForward} from 'react-icons-kit/ionicons/androidArrowForward'
 import Link from 'next/link';
+import {circleRight} from 'react-icons-kit/icomoon/circleRight'
 
 import { Emoji, EmojiStyle } from 'emoji-picker-react';
 import { Heading } from '../components/Heading/Heading';
@@ -40,12 +41,12 @@ export default function ImpossiblieList() {
                                             <a href='https://vyshnav.xyz/impossible-list'> vyshnav.xyz </a>
                                         </span> 
                                 </Link>
-                                Which it looks like quite interesting, After reading had an thought why don't we have a try, It helps me to push myself to achieve those things
+                                Which it looks like quite interesting, After reading had an thought why don&apos;t we have a try, It helps me to push myself to achieve those things
                             </Paragraph>
                             <h4>Life Goals</h4> <br/>
 
                             <div style={{ color: '#3121ed',fontWeight: 'bold' }}>
-                                <Icon size={22} icon={androidArrowForward} /> 
+                                <Icon size={22} icon={circleRight} /> 
                                 <span style={{ color:'black',fontSize: '16px',letterSpacing: '0.7px',fontWeight: 'bold'  }}> 
                                     Read 10 Books in 2023
                                 </span>
