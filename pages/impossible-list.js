@@ -15,6 +15,11 @@ import {circleRight} from 'react-icons-kit/icomoon/circleRight'
 
 import { Emoji, EmojiStyle } from 'emoji-picker-react';
 import { Heading } from '../components/Heading/Heading';
+import {angleDoubleRight} from 'react-icons-kit/fa/angleDoubleRight'
+
+import MyImpossibleList from '../components/MyImpossibleList/MyImpossibleList';
+
+
 
 
 export default function ImpossiblieList() {
@@ -32,7 +37,7 @@ export default function ImpossiblieList() {
                         <OuterWrapper>
                             <Heading>Impossible List</Heading>
                             <hr/> 
-                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 26 October, 2022</span>
+                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 27 November, 2022</span>
                             <br/><br/>
                             <Paragraph>
                                 This impossible list which i came across from the blog of 
@@ -41,31 +46,47 @@ export default function ImpossiblieList() {
                                             <a href='https://vyshnav.xyz/impossible-list'> vyshnav.xyz </a>
                                         </span> 
                                 </Link>
-                                Which it looks like quite interesting, After reading had an thought why don&apos;t we have a try, It helps me to push myself to achieve those things
+                                Which it looks like quite interesting, After reading had an thought why don&apos;t we have a try, It helps me to push myself to achieve those things, 
                             </Paragraph>
-                            <h4>Life Goals</h4> <br/>
-
-                            <div style={{ color: '#3121ed',fontWeight: 'bold' }}>
-                                <Icon size={22} icon={circleRight} /> 
-                                <span style={{ color:'black',fontSize: '16px',letterSpacing: '0.7px',fontWeight: 'bold'  }}> 
-                                    Read 10 Books in 2023
-                                </span>
-                            </div>
-                            <div style={{ color: '#3121ed',fontWeight: 'bold',marginTop: '0.9rem' }}>
-                                <Icon size={22} icon={androidArrowForward} /> 
-                                <span style={{ color:'black',fontSize: '16px',letterSpacing: '0.7px',fontWeight: 'bold'  }}> 
-                                    Buy PS5 Console 
-                                </span>
-                            </div>
-
-                            <div style={{ color: '#3121ed',fontWeight: 'bold',marginTop: '0.9rem' }}>
-                                <Icon size={22} icon={androidArrowForward} /> 
-                                <span style={{ color:'black',fontSize: '16px',letterSpacing: '0.7px',fontWeight: 'bold'  }}> 
-                                    Buy Macbook 
-                                </span>
-                            </div>
-                            
-                            
+                                <h4 style={{ letterSpacing: '1.2px' }}>Life</h4> <br/>
+                                    <MyImpossibleList title="Read 10 Books in 2023"/> 
+                                    <MyImpossibleList title="Make Passive Income"/>
+                                <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Professional</h4> <br/>
+                                   
+                                    <MyImpossibleList 
+                                    title="Have one Personal Website"
+                                    isdone = "true"
+                                    achievedDate= "Oct 26th, 2022"
+                                />
+                                    <MyImpossibleList title="Gain 500 Twitter Follower"/>
+                                    <MyImpossibleList title="Become Expert in one technology"/>
+                                    <MyImpossibleList title="Contribute to Open Source "/>
+                                    <MyImpossibleList title="Publish one app in playstore"/>
+                                   
+                                 <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Travel</h4> <br/>
+                                    <MyImpossibleList title="International Trip"/>
+                                    <MyImpossibleList title="Devotional Trip"/>
+                                 <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Fitness</h4> <br/>
+                                    <MyImpossibleList title="100 Push ups on Single Set"/>
+                                    <MyImpossibleList title="50 Push ups on Single Set"/>
+                                    <MyImpossibleList title="100 KG on BenchPress "/>
+                                    <MyImpossibleList title="Bring Ball Shape Biceps"/>
+                                    <MyImpossibleList title="Flat Stomach "/>
+                                 <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Personal</h4> 
+                                 <MyImpossibleList 
+                                    title="Buy PS5 Console"
+                                    isdone = "false"
+                                    achievedDate= "Oct 22, 2022"
+                                    links = "ps5"
+                                />
+                                <MyImpossibleList title="Buy Macbook"/>
+                                <MyImpossibleList title="Buy Apple Watch"/>
+                                <MyImpossibleList title="New Big Car - Honda City "/>
+                                <br/>
                         </OuterWrapper>
                     </Wrapper>
                 </main>
