@@ -62,6 +62,7 @@ export default function ImpossiblieList() {
                                     <MyImpossibleList title="Gain 500 Twitter Follower"/>
                                     <MyImpossibleList title="Become Expert in one technology"/>
                                     <MyImpossibleList title="Contribute to Open Source "/>
+                                    <MyImpossibleList title="Publish One Plugin or Theme"/>
                                     <MyImpossibleList title="Publish one app in playstore"/>
                                    
                                  <br/>
@@ -70,6 +71,7 @@ export default function ImpossiblieList() {
                                     <MyImpossibleList title="Devotional Trip"/>
                                  <br/>
                                  <h4 style={{ letterSpacing: '1.2px' }}>Fitness</h4> <br/>
+                                    <MyImpossibleList title="100 KG BenchPress"/>
                                     <MyImpossibleList title="100 Push ups on Single Set"/>
                                     <MyImpossibleList title="50 Push ups on Single Set"/>
                                     <MyImpossibleList title="100 KG on BenchPress "/>
@@ -90,7 +92,8 @@ export default function ImpossiblieList() {
                         </OuterWrapper>
                     </Wrapper>
                 </main>
-                <Footer/>
+                <br/>
+                {/* <Footer/> */}
             </div>
         </>
     );
