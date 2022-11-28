@@ -81,7 +81,7 @@ export default function ImpossiblieList() {
                                     title="Buy PS5 Console"
                                     isdone = "false"
                                     achievedDate= "Oct 22, 2022"
-                                    links = "ps5"
+                                    links = "/ps5"
                                 />
                                 <MyImpossibleList title="Buy Macbook"/>
                                 <MyImpossibleList title="Buy Apple Watch"/>
