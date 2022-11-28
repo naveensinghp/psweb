@@ -48,7 +48,7 @@ margin: 10px;
 padding: 40px 0 20px;
 line-height: 30px;
 position: absolute;
-bottom: 0;
+// bottom: 0;
 left: 0;
 width: 100%;
 color: black`;
