@@ -37,7 +37,7 @@ export default function ImpossiblieList() {
                         <OuterWrapper>
                             <Heading>Impossible List</Heading>
                             <hr/> 
-                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 27 November, 2022</span>
+                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 30 November, 2022</span>
                             <br/><br/>
                             <Paragraph>
                                 This impossible list which i came across from the blog of 
@@ -48,12 +48,14 @@ export default function ImpossiblieList() {
                                 </Link>
                                 Which it looks like quite interesting, After reading had an thought why don&apos;t we have a try, It helps me to push myself to achieve those things, 
                             </Paragraph>
-                                <h4 style={{ letterSpacing: '1.2px' }}>Life</h4> <br/>
+                                <h4 style={{ letterSpacing: '1.2px' }}>Life Goals</h4> <br/>
                                     <MyImpossibleList title="Read 10 Books in 2023"/> 
                                     <MyImpossibleList title="Make Passive Income"/>
                                 <br/>
+                                <h4 style={{ letterSpacing: '1.2px' }}>Habit Goals</h4> <br/>
+                                    <MyImpossibleList title="Do Morning Workout 30 days in a row"/>
+                                <br/>
                                  <h4 style={{ letterSpacing: '1.2px' }}>Professional</h4> <br/>
-                                   
                                     <MyImpossibleList 
                                     title="Have one Personal Blog Website"
                                     isdone = "true"
@@ -66,12 +68,17 @@ export default function ImpossiblieList() {
                                     <MyImpossibleList title="Gain 500 Twitter Follower"/>
                                     <MyImpossibleList title="One Side Project"/>
                                  <br/>
-                                 <h4 style={{ letterSpacing: '1.2px' }}>Travel</h4> <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Creative Goals</h4> <br/>
+                                    <MyImpossibleList title="Learn Rive"/>
+                                    <MyImpossibleList title="Learn Blender"/>
+                                <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Travel Goals</h4> <br/>
                                     <MyImpossibleList title="International Trip"/>
                                     <MyImpossibleList title="Devotional Trip"/>
+                                    <MyImpossibleList title="Visit Bali"/>
                                     <MyImpossibleList title="Take a Good Picture for Instagram"/>
                                  <br/>
-                                 <h4 style={{ letterSpacing: '1.2px' }}>Fitness</h4> <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Fitness Goals</h4> <br/>
                                     <MyImpossibleList title="100 KG in BenchPress"/>
                                     <MyImpossibleList title="100 Push ups on Single Set"/>
                                     <MyImpossibleList title="50 Pull ups on Single Set"/>
