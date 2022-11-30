@@ -55,28 +55,28 @@ export default function ImpossiblieList() {
                                  <h4 style={{ letterSpacing: '1.2px' }}>Professional</h4> <br/>
                                    
                                     <MyImpossibleList 
-                                    title="Have one Personal Website"
+                                    title="Have one Personal Blog Website"
                                     isdone = "true"
                                     achievedDate= "Oct 26th, 2022"
                                 />
-                                    <MyImpossibleList title="Gain 500 Twitter Follower"/>
                                     <MyImpossibleList title="Become Expert in one technology"/>
-                                    <MyImpossibleList title="Contribute to Open Source "/>
                                     <MyImpossibleList title="Publish One Plugin or Theme"/>
                                     <MyImpossibleList title="Publish one app in playstore"/>
-                                   
+                                    <MyImpossibleList title="Contribute to Open Source "/>
+                                    <MyImpossibleList title="Gain 500 Twitter Follower"/>
+                                    <MyImpossibleList title="One Side Project"/>
                                  <br/>
                                  <h4 style={{ letterSpacing: '1.2px' }}>Travel</h4> <br/>
                                     <MyImpossibleList title="International Trip"/>
                                     <MyImpossibleList title="Devotional Trip"/>
+                                    <MyImpossibleList title="Take a Good Picture for Instagram"/>
                                  <br/>
                                  <h4 style={{ letterSpacing: '1.2px' }}>Fitness</h4> <br/>
-                                    <MyImpossibleList title="100 KG BenchPress"/>
+                                    <MyImpossibleList title="100 KG in BenchPress"/>
                                     <MyImpossibleList title="100 Push ups on Single Set"/>
-                                    <MyImpossibleList title="50 Push ups on Single Set"/>
-                                    <MyImpossibleList title="100 KG on BenchPress "/>
-                                    <MyImpossibleList title="Bring Ball Shape Biceps"/>
-                                    <MyImpossibleList title="Flat Stomach "/>
+                                    <MyImpossibleList title="50 Pull ups on Single Set"/>
+                                    <MyImpossibleList title="Bring Ball Shape in Biceps"/>
+                                    <MyImpossibleList title="Make an Flat Stomach "/>
                                  <br/>
                                  <h4 style={{ letterSpacing: '1.2px' }}>Personal</h4> 
                                  <MyImpossibleList 
