@@ -32,7 +32,7 @@ function MyImpossibleList(props) {
            
           )}
           
-          <Link href="#" passHref>
+          <Link href={`/${links ? links : ""}`} passHref>
             <a target="_blank" rel="noopener noreferrer" style={{ cursor : 'pointer',fontWeight: 'bold',textDecoration: 'underline', color: 'blue' }}>
               {achievedDate}
             </a>  
