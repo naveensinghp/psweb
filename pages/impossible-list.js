@@ -49,13 +49,14 @@ export default function ImpossiblieList() {
                                 Which it looks like quite interesting, After reading had an thought why don&apos;t we have a try, It helps me to push myself to achieve those things, 
                             </Paragraph>
                                 <h4 style={{ letterSpacing: '1.2px' }}>Life Goals</h4> <br/>
-                                    <MyImpossibleList title="Read 10 Books in 2023"/> 
+                                    <MyImpossibleList title="Read 10 Books in 2023"/>
+                                    <MyImpossibleList title="Become a Indie hackers"/> 
                                     <MyImpossibleList title="Make Passive Income"/>
                                 <br/>
                                 <h4 style={{ letterSpacing: '1.2px' }}>Habit Goals</h4> <br/>
                                     <MyImpossibleList title="Do Morning Workout 30 days in a row"/>
                                 <br/>
-                                 <h4 style={{ letterSpacing: '1.2px' }}>Professional</h4> <br/>
+                                 <h4 style={{ letterSpacing: '1.2px' }}>Professional Goals</h4> <br/>
                                     <MyImpossibleList 
                                     title="Have one Personal Blog Website"
                                     isdone = "true"
