@@ -72,6 +72,7 @@ export default function ImpossiblieList() {
                                  <h4 style={{ letterSpacing: '1.2px' }}>Creative Goals</h4> <br/>
                                     <MyImpossibleList title="Learn Rive"/>
                                     <MyImpossibleList title="Learn Blender"/>
+                                    <MyImpossibleList title="Learn Photography"/>
                                 <br/>
                                  <h4 style={{ letterSpacing: '1.2px' }}>Travel Goals</h4> <br/>
                                     <MyImpossibleList title="International Trip"/>
