@@ -31,7 +31,7 @@ export default function Goals() {
                             <Paragraph>
                                 On this is goal page where i use to set my goals and check my goal list on weekly base, Whether i achieved or not 
                             </Paragraph>
-                                <h4 style={{ letterSpacing: '1.2px' }}>Week Goals</h4> <br/>
+                                <h4 style={{ letterSpacing: '1.2px' }}>Week Goals-(13 Dec - 17 Dec)</h4> <br/>
                                     <MyImpossibleList title="Reading Habit"/>
                                     <MyImpossibleList title="Progress on Mobile App"/>
                                     <MyImpossibleList title="Go to GYM 5 days"/>
