@@ -10,7 +10,6 @@ import MyImpossibleList from '../components/MyImpossibleList/MyImpossibleList';
 
 
 
-
 export default function Goals() {
     return(
         <>
@@ -39,8 +38,10 @@ export default function Goals() {
                                     <MyImpossibleList title="No Outside Food"/>
                                 <br/>
                                 <h4 style={{ letterSpacing: '1.2px' }}>Month Goals</h4> <br/>
+                                <MyImpossibleList title="Publish one Technical Blog"/>
+                                <MyImpossibleList title="Publish Non Technical Blog"/>
                                 <MyImpossibleList title="Finish Current Reading Book"/>
-                                <MyImpossibleList title="No Incomplete on PSweb"/>
+                                <MyImpossibleList title="No Incomplete on PSweb on Website"/>
                         </OuterWrapper>
                     </Wrapper>
                 </main>
