@@ -25,7 +25,7 @@ export default function Goals() {
                         <OuterWrapper>
                             <Heading>My Goals</Heading>
                             <hr/> 
-                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 08 Dec, 2022</span>
+                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 15 Dec, 2022</span>
                             <br/><br/>
                             <Paragraph>
                                 On this is goal page where i use to set my goals and check my goal list on weekly base, Whether i achieved or not 
