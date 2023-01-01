@@ -52,6 +52,9 @@ svg.material-icons:not(:last-child) {
 .card-container .card:not(.highlight-card) {
   cursor: pointer;
 }
+.toto:hover .iconda:hover{
+  background-color: aqua;
+}
 
 /*
   Josh's Custom CSS Reset
@@ -147,6 +150,8 @@ a {
   height: 4px;
   transition: 0.3s;
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   /* html {

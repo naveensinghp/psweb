@@ -3,8 +3,8 @@ import { BREAKPOINTS } from '../../constant';
 
 
 export const Paragraph = styled.p`
-  font-size: 1rem;
-  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
   margin-bottom: 1rem;
 
   @media ${BREAKPOINTS.sm} {

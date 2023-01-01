@@ -24,7 +24,7 @@ function MyImpossibleList(props) {
 
             <>
              <IsNotDone>
-                <Icon size={18} color="white" icon={angleDoubleRight} /> 
+                <Icon className="impicon" size={18} color="white" icon={angleDoubleRight} /> 
               </IsNotDone>
               <NotDone>{title}</NotDone>
             </>
