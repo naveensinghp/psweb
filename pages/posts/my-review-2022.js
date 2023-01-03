@@ -1,7 +1,7 @@
 
 import React from "react";
 import styled from 'styled-components';
-import {arrowLeft} from 'react-icons-kit/typicons/arrowLeft'
+import {arrowLeft} from 'react-icons-kit/feather/arrowLeft'
 import Icon from 'react-icons-kit';
 import { Heading } from "../../components/Heading/Heading";
 import Link from 'next/link';
@@ -19,7 +19,7 @@ function ThingstoFocusBlog() {
       </Head>
       <LeftIcon>
           <Link href="/" rel="noopener noreferrer">
-            <Icon size={30} color="white" icon={ic_keyboard_backspace} /> 
+            <Icon size={22} color="white" icon={arrowLeft} /> 
           </Link>
       </LeftIcon>
       <Hr></Hr>
@@ -96,7 +96,7 @@ const PhotoText = styled.div`
 
 
 const LeftIcon = styled.div`
-  padding: 10px;
+  padding: 14px;
   color: grey;
   cursor: pointer;
 `;
