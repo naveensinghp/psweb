@@ -23,6 +23,7 @@ export default function MainContent(){
                     <Paragraph>
                     The Goal of this blog is about to share the stuff I&apos;ve learned often and the biggest motivation for me at first was just to remember things for myself just want to make sure that I keep this as reference for myself.
                     </Paragraph>
+                    <EndofLine></EndofLine>
                     {/* <svg  style={{ margin: '70px auto' }} width="100" height="50"><path d="M 0,25 Q 5,30 10,25 Q 15,20 20,25 Q 25,30 30,25 Q 35,20 40,25 Q 45,30 50,25 Q 55,20 60,25 Q 65,30 70,25 Q 75,20 80,25 Q 85,30 90,25 Q 95,20 100,25" fill="none" stroke-linecap="round" stroke="#D500F9" stroke-width="2"></path>
                     </svg> */}
                     <Heading>Recent Blog</Heading>
@@ -48,6 +49,13 @@ export default function MainContent(){
 
 const NameStyle = styled.h1`
 letter-spacing: 0.9px`;
+
+
+const EndofLine = styled.div`
+border: 3px solid #ababab;
+border-radius: 12px;
+margin: 70px auto;
+width: 50px;`;
 
 
 const OuterWrapper = styled.div`
