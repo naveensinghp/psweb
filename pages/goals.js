@@ -25,23 +25,23 @@ export default function Goals() {
                         <OuterWrapper>
                             <Heading>My Goals</Heading>
                             <hr/> 
-                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 15 Dec, 2022</span>
+                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Last Updated : 07 Jan, 2022</span>
                             <br/><br/>
                             <Paragraph>
-                                On this is goal page where i use to set my goals and check my goal list on weekly base, Whether i achieved or not 
+                                On this is goal page where i use to set my goals and check my goal list on weekly base, Whether i achieved or not, Remainder to myself 
                             </Paragraph>
-                                <h4 style={{ letterSpacing: '1.2px' }}>Week Goals-(13 Dec - 17 Dec)</h4> <br/>
-                                    <MyImpossibleList title="Reading Habit"/>
-                                    <MyImpossibleList title="Progress on Mobile App"/>
+                                <h4 style={{ letterSpacing: '1.2px' }}>Week Goals-(07 Jan - 14 Jan)</h4> <br/>
+                                    <MyImpossibleList title="Make Better Plans"/>
+                                    <MyImpossibleList title="Make Reading Habit"/>
                                     <MyImpossibleList title="Go to GYM 5 days"/>
                                     <MyImpossibleList title="Code 5 days"/> 
                                     <MyImpossibleList title="No Outside Food"/>
-                                <br/>
+                                {/* <br/>
                                 <h4 style={{ letterSpacing: '1.2px' }}>Month Goals</h4> <br/>
                                 <MyImpossibleList title="Publish one Technical Blog"/>
                                 <MyImpossibleList title="Publish Non Technical Blog"/>
                                 <MyImpossibleList title="Finish Current Reading Book"/>
-                                <MyImpossibleList title="No Incomplete on PSweb on Website"/>
+                                <MyImpossibleList title="No Incomplete on PSweb on Website"/> */}
                         </OuterWrapper>
                     </Wrapper>
                 </main>
