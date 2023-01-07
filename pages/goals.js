@@ -35,7 +35,7 @@ export default function Goals() {
                                     <MyImpossibleList title="Make Reading Habit"/>
                                     <MyImpossibleList title="Go to GYM 5 days"/>
                                     <MyImpossibleList title="Code 5 days"/> 
-                                    <MyImpossibleList title="No Outside Food"/>
+                                    <MyImpossibleList title="No Outside Food For Week"/>
                                 {/* <br/>
                                 <h4 style={{ letterSpacing: '1.2px' }}>Month Goals</h4> <br/>
                                 <MyImpossibleList title="Publish one Technical Blog"/>
