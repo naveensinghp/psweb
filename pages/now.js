@@ -31,7 +31,7 @@ export default function Now() {
                         <OuterWrapper>
                             <Heading>What I&apos;m doing now</Heading>
                             <hr/> 
-                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Updated : 26 October, 2022</span>
+                            <span style={{ color:'black',fontSize: '12px',letterSpacing: '0.7px',fontWeight: 'bold', fontStyle: 'italic' }}> Updated : 09 January, 2023</span>
                             <br/><br/>
                             <Paragraph>
                                 Yes what I&apos;m doing now But unfortunately nothing too exciting going on in my life right now, Recently being more conscious about health, So just started hitting into the gym and exercises,
@@ -79,8 +79,8 @@ export default function Now() {
                                 <div style={{ display: 'flex', flexDirection: 'row',gap: '10px' }}>
                                     {/* <Emoji unified="1f4da" size="25" />   */}
                                     📖 &nbsp; Current Reading -
-                                    <Link href='https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X' style={{ fontStyle: 'normal',color: '#3121ed'}} rel="noopener noreferrer">
-                                        <span className={styles.thingiuselink}> < a href='https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X'> Ikigai: The Japanese Secret to a Long and Happy Life </a>
+                                    <Link href='https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834' style={{ fontStyle: 'normal',color: '#3121ed'}} rel="noopener noreferrer">
+                                        <span className={styles.thingiuselink}> < a href='https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834'> Atomic Habit : James-Clear </a>
                                     </span> 
                                 </Link>
                                 </div>
