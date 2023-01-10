@@ -33,6 +33,8 @@ export default function Goals() {
                                 <h4 style={{ letterSpacing: '1.2px' }}>Week Goals-(07 Jan - 14 Jan)</h4> <br/>
                                     <MyImpossibleList title="Make Better Plans"/>
                                     <MyImpossibleList title="Make Reading Habit"/>
+                                    <MyImpossibleList title="One Technical Blog"/>
+                                    <MyImpossibleList title="MDX on psweb"/>
                                     <MyImpossibleList title="Go to GYM 5 days"/>
                                     <MyImpossibleList title="Code 5 days"/> 
                                     <MyImpossibleList title="No Outside Food For Week"/>
